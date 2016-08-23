@@ -10,6 +10,7 @@ public class WelcomeInMessageDialogBox {
     // Display Welcome to Java! in a message dialog box
         JOptionPane.showMessageDialog(null, "Welcome DCPE 3A/B...all of you!\nDon't be late");
         JOptionPane.showMessageDialog(null, "Have you finished dowloading IDE?");
+        JOptionPane.showMessageDialog(null, "YANHUI LIKES BIG DICKS");
      // below is another way to display message with more customized info
      //   JOptionPane.showMessageDialog(null, "Hello", "Welcome", JOptionPane.INFORMATION_MESSAGE);
      //   System.out.print("The info message value: "+JOptionPane.INFORMATION_MESSAGE);
