@@ -1,42 +1,37 @@
+	public class a_rough_program {
+		  
+		  private double radius = 5;
+		  private String color = "white";
 
-import java.awt.Component;
-import java.util.Scanner;
-import javax.swing.JOptionPane;
-/* This program asks user for an integer and
-   output a message to report whether the integer is odd or even.
-*/   
+		  public a_rough_program(){
+		  }
+		  public double getRadius() {
+		    return radius;//return the value of instance variable radius
+		  }
+		  public void setRadius(double dbRadius) {
+		radius = dbRadius;
+		/*change the value of instance variable to method’s parameter’s value.*/
+		  }
+		  public String getColor() {
+			return color;
+		    /*add your own codes here to return the value of instance variable color*/
+		  }
+		  public void setColor(String strColor) {
+		    /*add your own codes here to change the value of instance variable color to the method’s parameter value*/
+		  }
+		  public String toString() {
+			  String s= "the colour is "+getColor()+" and te size is "+radius;
+			return s;
+		/*add your own codes here to prepare and the description of  the fan and return the description*/
+		  }
+		  
+		//new line made for practical 6.2.3
+		  public a_rough_program(String clr){		  
+			  color=clr;
+		  }
+		 
+		 
+		}
 
-public class a_rough_program 
-{
-  public static void main(String[] ags)
-  {
-	  int ans = Integer.parseInt( JOptionPane.showInputDialog(frame,
-		        "Text",
-		        JOptionPane.INFORMATION_MESSAGE,
-		        null,
-		        null,
-		        "sample text to help input"));
-	  
-	  String name;
-      name = JOptionPane.showInputDialog(null,
-       "Please enter your name");
-      JOptionPane.showMessageDialog(null,"Hi "+ name);
-	  
-	
-	  
-   System.out.println("Please enter an integer here:");
-   Scanner sc = new Scanner(System.in);
-   int number = sc.nextInt();
-   
- 
-   if (number==69){ 
-	    System.out.println(number + " is correct!");
-   }
-   else{
-		   System.out.println(number + " is wrong :'(");
-   }
-   sc.close(); 
-   
-   
-  }
-}  
+    
+    
